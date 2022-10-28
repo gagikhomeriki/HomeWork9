@@ -1,0 +1,213 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    border: 2px solid #1473e6;
+    height: 263px;
+    background-color: #1473e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_search_line{
+    border: 1px solid white;
+    background-color: white;
+    height: 1px;
+    width: 382px;
+}
+
+nav{
+    height: 90px;
+    width: 30%;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    color: white;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    text-shadow: 5px 5px 4px white;
+}
+
+.header_logo{
+    margin-right: 70px;
+}
+
+.header_icon{
+    margin-bottom: 100px;
+    float: right;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+section{
+    background-image: url(./images/rupixen-com-pbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 788px;
+    margin: 0 auto;
+}
+
+.formbox{
+    width: 384px;
+    height: 626px;
+    float: right;
+    margin-right: 208px;
+    margin-top: 85px;
+    background-color: rgba(255,255,255,0 );
+}
+
+.formboxh3{
+    color: #333333;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.formp{
+    color: #333333;
+}
+
+.sign_up_box{
+    width: 284px;
+    height: 522px;
+    margin: 60px;
+}
+
+.form_one{
+    display: flex;
+    flex-direction: column;
+    width: 261;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #747474;
+}
+
+.paragraph_button{
+    margin-top: 60px;
+    color: #747474;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button_next{
+    width: 264px;
+    height: 37px;
+    color: white;
+    background-color: #1473e6;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#name{
+    width: 261px;
+    height: 35px;
+    border-color: #838383;
+}
+
+#username{
+    width: 261px;
+    height: 35px;
+    border-color: #838383;
+    background-color: rgba(255,255,255,0 );
+}
+
+#psw{
+    width: 261px;
+    height: 35px;
+    border-color: #838383;
+    background-image: url(./images/eye.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255,255,255,0 );
+}
+
+.signup_heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer{
+    height: 807px;
+}
+
+.form_second{
+    background-color: rgba(252,154,37,0.6666666666666666 );
+    width: 70%;
+    height: 607px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+.form_secong_h3{
+    color: #333333;
+    font-size: 4.5rem;
+}
+
+.form_second_box{
+    width: 850px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.input_box{
+    display: flex;
+    gap: 150px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+textarea{
+    width: 490px;
+    height: 300px;
+    margin-top: 50px;
+    resize: none;
+    border-color: #838383;
+}
+
+#NAME{
+    height: 44px;
+    width: 170px;
+    font-size: 1.125rem;
+}
+
+#number{
+    height: 44px;
+    width: 170px;
+    font-size: 1.125rem;
+}
+
+textarea::placeholder{
+    font-size: 1.563rem;
+    padding: 30px;
+}
+
+
